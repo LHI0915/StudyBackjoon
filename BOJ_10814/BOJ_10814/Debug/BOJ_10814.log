@@ -1,0 +1,81 @@
+﻿빌드 시작: 2018-09-18 오후 6:08:15
+     1>2 노드의 "D:\공부\github\LHIBackjoon\BOJ_10814\BOJ_10814\BOJ_10814.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\BOJ_10814.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BOJ_10814.cpp
+         BOJ_10814.cpp
+     1>d:\공부\github\lhibackjoon\boj_10814\boj_10814\boj_10814.cpp(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 'scanf' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::vector<_Ty,_Ax> &,const std::vector<_Ty,_Ax> &)' : 'const std::vector<_Ty,_Ax> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1502) : 'std::operator <' 선언을 참조하십시오.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3311) : 컴파일 중인 함수 템플릿 인스턴스화 'bool std::_Debug_lt<join,join>(_Ty1 &,_Ty2 &,std::_Dbfile_t,std::_Dbline_t)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Ty1=join,
+                     _Ty2=join
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3890) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Buffered_merge<_BidIt,_Diff,_Ty>(_BidIt,_BidIt,_BidIt,_Diff,_Diff,std::_Temp_iterator<_Ty> &)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _BidIt=join *,
+                     _Diff=__w64 int,
+                     _Ty=join
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3902) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Stable_sort<_BidIt,_Diff,_Ty>(_BidIt,_BidIt,_Diff,std::_Temp_iterator<_Ty> &)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _BidIt=join *,
+                     _Diff=__w64 int,
+                     _Ty=join
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3911) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::_Stable_sort<join*,__w64 int,join>(_BidIt,_BidIt,_Diff *,_Ty *)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _BidIt=join *,
+                     _Diff=__w64 int,
+                     _Ty=join
+                 ]
+                 d:\공부\github\lhibackjoon\boj_10814\boj_10814\boj_10814.cpp(23) : 컴파일 중인 함수 템플릿 인스턴스화 'void std::stable_sort<std::_Vector_iterator<_Myvec>>(_BidIt,_BidIt)'에 대한 참조를 확인하십시오.
+                 with
+                 [
+                     _Myvec=std::_Vector_val<Join,std::allocator<Join>>,
+                     _BidIt=std::_Vector_iterator<std::_Vector_val<Join,std::allocator<Join>>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)' : 'const std::unique_ptr<_Ty,_Dx> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\memory(2582) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *)' : 'const std::basic_string<_Elem,_Traits,_Alloc> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(243) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const _Elem *,const std::basic_string<_Elem,_Traits,_Alloc> &)' : 'const _Elem *'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(233) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)' : 'const std::basic_string<_Elem,_Traits,_Alloc> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(223) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)' : 'const std::reverse_iterator<_RanIt> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1356) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::_Revranit<_RanIt,_Base> &,const std::_Revranit<_RanIt2,_Base2> &)' : 'const std::_Revranit<_RanIt,_Base> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1179) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2784: 'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)' : 'const std::pair<_Ty1,_Ty2> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(318) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(625): error C2676: 이항 '<' : 'join'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::vector<_Ty,_Ax> &,const std::vector<_Ty,_Ax> &)' : 'const std::vector<_Ty,_Ax> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1502) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)' : 'const std::unique_ptr<_Ty,_Dx> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\memory(2582) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *)' : 'const std::basic_string<_Elem,_Traits,_Alloc> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(243) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const _Elem *,const std::basic_string<_Elem,_Traits,_Alloc> &)' : 'const _Elem *'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(233) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)' : 'const std::basic_string<_Elem,_Traits,_Alloc> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(223) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)' : 'const std::reverse_iterator<_RanIt> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1356) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::_Revranit<_RanIt,_Base> &,const std::_Revranit<_RanIt2,_Base2> &)' : 'const std::_Revranit<_RanIt,_Base> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1179) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2784: 'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)' : 'const std::pair<_Ty1,_Ty2> &'의 템플릿 인수를 'join'에서 추론할 수 없습니다.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(318) : 'std::operator <' 선언을 참조하십시오.
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(627): error C2676: 이항 '<' : 'join'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+     1>"D:\공부\github\LHIBackjoon\BOJ_10814\BOJ_10814\BOJ_10814.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.91
