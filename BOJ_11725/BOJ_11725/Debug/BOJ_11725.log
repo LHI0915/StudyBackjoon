@@ -1,0 +1,5 @@
+﻿  BOJ_11725.cpp
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_11725\BOJ_11725\BOJ_11725.cpp(21,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_11725\BOJ_11725\BOJ_11725.cpp(35,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_11725\BOJ_11725\BOJ_11725.cpp(38,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BOJ_11725.vcxproj -> C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_11725\Debug\BOJ_11725.exe
