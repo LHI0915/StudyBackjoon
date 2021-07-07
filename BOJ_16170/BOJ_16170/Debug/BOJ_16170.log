@@ -1,0 +1,3 @@
+﻿  BOJ_16170.cpp
+C:\Users\gowns\source\repos\BOJ_16170\BOJ_16170\BOJ_16170.cpp(8,17): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BOJ_16170.vcxproj -> C:\Users\gowns\source\repos\BOJ_16170\Debug\BOJ_16170.exe

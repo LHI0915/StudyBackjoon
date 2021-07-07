@@ -1,41 +1,49 @@
-#include <stdio.h>
+#include <cstdio>
 #include <vector>
-#include <queue>
+
 using namespace std;
-queue<pair<int,int>> q;
-vector<int> vec[101];
-bool check[101];
-int bfs(int first,int second,int cnt){
-	check[first]=true;
-	q.push(make_pair(first,cnt));
-	while(!q.empty()){
-		int cx = q.front().first;
-		int cxcnt = q.front().second;
-		q.pop();
-		if(cx==second){
-			return cxcnt;
-		}
-		for(int i=0;i<vec[cx].size();i++){
-			int nx = vec[cx][i];
-			if(check[nx]==false){
-				check[nx]=true;
-				q.push(make_pair(nx,cxcnt+1));
-			}
-		}
+
+vector<pair<int, int>> vec[101];
+int first_p, second_p, m,save_rel;
+bool visited[101];
+
+void dfs(int x, int w) {
+	visited[x] = true;
+	if (x == second_p) {
+		save_rel = w;
+		return;
 	}
-	return -1;
+
+	for (int i = 0; i < vec[x].size(); i++) {
+		int nextx = vec[x][i].first;
+		int nextw = vec[x][i].second;
+
+		if (visited[nextx] == false) {
+			dfs(nextx, nextw + w);
+		}
+
+	}
 }
-int main(void){
-	int result;
-	int n,first,second,node;
-	scanf("%d%d%d%d",&n,&first,&second,&node);
-	for(int i=0;i<node;i++){
-		int v,w;
-		scanf("%d%d",&v,&w);
-		vec[v].push_back(w);
-		vec[w].push_back(v);
+int main(void) {
+	int n;
+	scanf("%d", &n);
+	scanf("%d%d", &first_p, &second_p);
+	scanf("%d", &m);
+
+	for (int i = 0; i < m; i++) {
+		int x, y;
+		scanf("%d%d",&x,&y);
+		vec[x].push_back(make_pair(y, 1));
+		vec[y].push_back(make_pair(x, 1));
 	}
-	printf("%d\n",bfs(first,second,0));
-	
+
+	dfs(first_p,0);
+
+	if (save_rel) {
+		printf("%d\n", save_rel);
+	}
+	else {
+		printf("%d\n", -1);
+	}
 
 }

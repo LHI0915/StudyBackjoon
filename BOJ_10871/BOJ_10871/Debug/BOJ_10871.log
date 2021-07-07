@@ -1,0 +1,4 @@
+﻿  BOJ_10871.cpp
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10871\BOJ_10871\BOJ_10871.cpp(7,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10871\BOJ_10871\BOJ_10871.cpp(10,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BOJ_10871.vcxproj -> C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10871\Debug\BOJ_10871.exe

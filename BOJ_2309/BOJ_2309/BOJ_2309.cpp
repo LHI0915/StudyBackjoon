@@ -3,33 +3,33 @@
 
 using namespace std;
 
-int main(void){
-	int arr[9],sum=0,subnum,first=0,last=8;
-	for(int i=0;i<9;i++){
-		scanf("%d",&arr[i]);
-		sum+=arr[i];
-	}
-	subnum=sum-100;
-	sort(arr,arr+9);
-	while(first<last){
-		if(arr[first]+arr[last]==subnum){
-			arr[first]=0;
-			arr[last]=0;
-			break;
-		}
-		else if(arr[first]+arr[last]>subnum){
-			last=last-1;
-		}
-		else if(arr[first]+arr[last]<subnum){
-			first=first+1;
+int arr[9], sum_height = 0;
+
+void solve() {
+	for (int i = 0; i < 9; i++) {
+		for (int j = i + 1; j < 9; j++) {
+			if ((sum_height - (arr[i] + arr[j])) == 100) {
+				arr[i] = 0;
+				arr[j] = 0;
+				return;
+			}
 		}
 	}
-	for(int i=0;i<9;i++){
-		if(arr[i]!=0){
-			printf("%d\n",arr[i]);
-		}
+}
+int main(void) {
+	
+	for (int i = 0; i < 9; i++) {
+		scanf("%d", &arr[i]);
+		sum_height += arr[i];
 	}
+	sort(arr, arr + 9);
 
+	solve();
 
-
+	for (int i = 0; i < 9; i++) {
+		if (arr[i] != 0)
+			printf("%d\n", arr[i]);
+	}
+	
+	
 }

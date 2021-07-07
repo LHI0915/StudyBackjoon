@@ -1,23 +1,23 @@
-#include <stdio.h>
+#include <cstdio>
 
-int main(void){
-	int arr[10036],savenum,ans=0;
-	bool check[10036]={false,};
-	for(int i=1;i<=10000;i++){
-		arr[i]=i;
-	}
-	for(int i=1;i<=10000;i++){
-			savenum=arr[i];
-			ans=arr[i];
-			while(savenum!=0){
-				ans=ans+(savenum%10);
-				savenum=savenum/10;
-			}
-			check[ans]=true;
-	}
-	for(int i=1;i<=10000;i++){
-		if(check[i]==false){
-			printf("%d\n",arr[i]);
+using namespace std;
+
+int main(void) {	
+	bool arr[10036] = { false, };
+	for (int i = 1; i <= 10000; i++) {
+		int result = 0;
+		if (i >= 1 && i <= 9) {
+			result = i + i;
 		}
+		else {
+			int n = i;
+			result = result + n;
+			while (n != 0) {
+				result += (n % 10);
+				n = n / 10;
+			}
+		}
+		arr[result] = true;
+		if (arr[i] == false) printf("%d\n", i);
 	}
 }

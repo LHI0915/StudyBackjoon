@@ -1,0 +1,4 @@
+﻿  BOJ_11404.cpp
+C:\Users\gowns\source\repos\BOJ_11404\BOJ_11404\BOJ_11404.cpp(29,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\gowns\source\repos\BOJ_11404\BOJ_11404\BOJ_11404.cpp(33,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BOJ_11404.vcxproj -> C:\Users\gowns\source\repos\BOJ_11404\Debug\BOJ_11404.exe

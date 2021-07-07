@@ -1,0 +1,3 @@
+﻿  BOJ_3003.cpp
+C:\Users\gowns\source\repos\BOJ_3003\BOJ_3003\BOJ_3003.cpp(9,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  BOJ_3003.vcxproj -> C:\Users\gowns\source\repos\BOJ_3003\Debug\BOJ_3003.exe
