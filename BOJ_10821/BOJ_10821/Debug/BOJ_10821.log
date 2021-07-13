@@ -1,0 +1,4 @@
+﻿  BOJ_10821.cpp
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10821\BOJ_10821\BOJ_10821.cpp(11,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10821\BOJ_10821\BOJ_10821.cpp(7,6): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
+  BOJ_10821.vcxproj -> C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10821\Debug\BOJ_10821.exe

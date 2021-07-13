@@ -1,0 +1,4 @@
+﻿  BOJ_10798.cpp
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10798\BOJ_10798\BOJ_10798.cpp(11,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10798\BOJ_10798\BOJ_10798.cpp(16,9): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  BOJ_10798.vcxproj -> C:\Users\gowns\OneDrive\바탕 화면\haein\알고리즘\백준 문제풀이\BOJ_10798\Debug\BOJ_10798.exe
